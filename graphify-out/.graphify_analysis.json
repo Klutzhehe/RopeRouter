@@ -1,0 +1,266 @@
+{
+  "communities": {
+    "0": [
+      "app",
+      "app_app",
+      "board",
+      "board_board",
+      "core_geometry_routesegments",
+      "core_model",
+      "core_model_colors",
+      "core_model_componentschema",
+      "core_model_coordinate",
+      "core_model_padschema",
+      "core_model_parseproject",
+      "core_model_pointschema",
+      "core_model_projectschema",
+      "core_model_rectschema",
+      "core_model_report",
+      "core_model_routeschema",
+      "core_model_viaschema",
+      "core_model_violation",
+      "core_solver_solverevent",
+      "main",
+      "worker",
+      "worker_loop",
+      "worker_publish"
+    ],
+    "1": [
+      "core_model_route",
+      "core_pbd_pbd_engine_pbdengine",
+      "core_pbd_pbd_engine_pbdengine_applydistanceconstraints",
+      "core_pbd_pbd_engine_pbdengine_applytension",
+      "core_pbd_pbd_engine_pbdengine_constructor",
+      "core_pbd_pbd_engine_pbdengine_extractobstacles",
+      "core_pbd_pbd_engine_pbdengine_getproject",
+      "core_pbd_pbd_engine_pbdengine_initializeroutes",
+      "core_pbd_pbd_engine_pbdengine_nodesforroute",
+      "core_pbd_pbd_engine_pbdengine_preserveclearroutes",
+      "core_pbd_pbd_engine_pbdengine_projectintertracecollisions",
+      "core_pbd_pbd_engine_pbdengine_record",
+      "core_pbd_pbd_engine_pbdengine_remesh",
+      "core_pbd_pbd_engine_pbdengine_step",
+      "core_pbd_pbd_engine_pbdengine_toroutes",
+      "core_pbd_pbd_engine_pbdengine_tryreplaceroute",
+      "core_pbd_topological_snap",
+      "core_pbd_topological_snap_snapevent",
+      "core_pbd_topological_snap_topologicalsupervisor",
+      "core_pbd_topological_snap_topologicalsupervisor_checkandsnap",
+      "core_pbd_topological_snap_topologicalsupervisor_repair"
+    ],
+    "2": [
+      "core_geometry_corneredits",
+      "core_geometry_equal",
+      "core_geometry_localshortcuts",
+      "core_geometry_routelength",
+      "core_geometry_routepenetration",
+      "core_geometry_segmentshift",
+      "core_geometry_simplify",
+      "core_geometry_validate",
+      "core_model_point",
+      "core_solver_solver",
+      "core_solver_solver_alternatives",
+      "core_solver_solver_step",
+      "core_solver_solver_syncpbdroute",
+      "core_solver_solver_trycollapsevias",
+      "core_solver_solver_trycommit",
+      "core_solver_solver_trycommitcoordinated",
+      "core_solver_solver_trycommitcoordinatedwiggle",
+      "core_solver_solver_trycommitlayer",
+      "core_solver_solver_trycommitviabypass",
+      "core_solver_solver_trycommitwiggle"
+    ],
+    "3": [
+      "core_model_rect",
+      "core_pbd_pbd_engine",
+      "core_pbd_pbd_engine_crossingrecord",
+      "core_pbd_pbd_engine_mutationdecision",
+      "core_pbd_pbd_engine_obstaclebox",
+      "core_pbd_pbd_engine_obstaclecircle",
+      "core_pbd_pbd_engine_pbddist",
+      "core_pbd_pbd_engine_pbdengine_getcrossings",
+      "core_pbd_pbd_engine_pbdengine_projectobstaclecollisions",
+      "core_pbd_pbd_engine_pbdnode",
+      "core_pbd_pbd_engine_pointstopbdnodes",
+      "core_pbd_pbd_engine_pointtosegmentdist",
+      "core_pbd_pbd_engine_segmentcontact",
+      "core_pbd_pbd_engine_segmentintersectsbox",
+      "core_pbd_pbd_engine_segmentsintersect",
+      "core_pbd_quantize",
+      "core_pbd_quantize_decimatepolyline",
+      "core_pbd_quantize_octilinearconnect",
+      "core_pbd_quantize_quantizeproject",
+      "core_pbd_quantize_quantizeroutepoints"
+    ],
+    "4": [
+      "core_geometry",
+      "core_geometry_acutecorner",
+      "core_geometry_closestpoint",
+      "core_geometry_contactpoint",
+      "core_geometry_corneredit",
+      "core_geometry_cornersweepclear",
+      "core_geometry_cross",
+      "core_geometry_distance",
+      "core_geometry_pointsegment",
+      "core_geometry_rectdistance",
+      "core_geometry_routesegment",
+      "core_geometry_segmentdistance",
+      "core_geometry_segments",
+      "core_geometry_segmentslides",
+      "core_geometry_separationdirection",
+      "core_geometry_shortcutsweepclear",
+      "core_geometry_wallexpulsiondirection",
+      "core_solver"
+    ],
+    "5": [
+      "core_model_via",
+      "core_pbd_layering",
+      "core_pbd_layering_layerevent",
+      "core_pbd_layering_layeringmanager",
+      "core_pbd_layering_layeringmanager_attemptcollapsevias",
+      "core_pbd_layering_layeringmanager_attemptviabypass",
+      "core_pbd_layering_layeringmanager_evaluatelayers",
+      "core_pbd_layering_layeringmanager_isvalidvialocation",
+      "core_pbd_pbd_engine_pbdroute"
+    ],
+    "6": [
+      "core_generate",
+      "core_generate_generate",
+      "core_generate_getopencolumnx",
+      "core_geometry_connector",
+      "core_geometry_connectwaypoints",
+      "core_geometry_rope",
+      "core_model_random"
+    ],
+    "7": [
+      "core_model_project",
+      "core_solver_solver_checkpoint",
+      "core_solver_solver_constructor",
+      "core_solver_solver_getliveproject",
+      "core_solver_solver_quantize"
+    ]
+  },
+  "cohesion": {
+    "0": 0.13438735177865613,
+    "1": 0.21904761904761905,
+    "2": 0.30526315789473685,
+    "3": 0.16842105263157894,
+    "4": 0.26143790849673204,
+    "5": 0.3888888888888889,
+    "6": 0.5238095238095238,
+    "7": 0.6
+  },
+  "gods": [
+    {
+      "id": "core_geometry_validate",
+      "label": "validate()",
+      "degree": 34
+    },
+    {
+      "id": "core_pbd_pbd_engine_pbdengine",
+      "label": "PbdEngine",
+      "degree": 28
+    },
+    {
+      "id": "core_solver_solver",
+      "label": "Solver",
+      "degree": 20
+    },
+    {
+      "id": "core_model_project",
+      "label": "Project",
+      "degree": 18
+    },
+    {
+      "id": "core_geometry_simplify",
+      "label": "simplify()",
+      "degree": 17
+    },
+    {
+      "id": "core_geometry_routelength",
+      "label": "routeLength()",
+      "degree": 12
+    },
+    {
+      "id": "core_model_point",
+      "label": "Point",
+      "degree": 12
+    },
+    {
+      "id": "core_model_route",
+      "label": "Route",
+      "degree": 12
+    },
+    {
+      "id": "core_geometry_distance",
+      "label": "distance()",
+      "degree": 11
+    },
+    {
+      "id": "core_geometry_equal",
+      "label": "equal()",
+      "degree": 11
+    }
+  ],
+  "surprises": [
+    {
+      "source": "App()",
+      "target": "generate()",
+      "source_files": [
+        "App.tsx",
+        "core/generate.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "App()",
+      "target": "routeLength()",
+      "source_files": [
+        "App.tsx",
+        "core/geometry.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "App()",
+      "target": "validate()",
+      "source_files": [
+        "App.tsx",
+        "core/geometry.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Board()",
+      "target": "pointSegment()",
+      "source_files": [
+        "Board.tsx",
+        "core/geometry.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "loop()",
+      "target": "validate()",
+      "source_files": [
+        "worker.ts",
+        "core/geometry.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

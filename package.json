@@ -1,0 +1,35 @@
+{
+  "name": "rope-router",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest run",
+    "test:ui": "playwright test",
+    "diagnose": "node scripts/diagnose.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "test:lifecycle": "node scripts/verify-lifecycle.mjs",
+    "test:scale": "node scripts/verify-scale.mjs",
+    "test:gpu": "node scripts/gpu-parity.mjs",
+    "colab:run": "node scripts/run-colab.mjs"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "2.1.10",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/node": "26.6.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.1",
+    "prettier": "3.9.8",
+    "typescript": "7.0.2",
+    "vite": "8.3.0",
+    "vitest": "5.0.1"
+  }
+}
